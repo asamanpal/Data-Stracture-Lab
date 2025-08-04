@@ -43,3 +43,19 @@ int main(void) {
 
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+//OUTPUT
+
+// Best case:     found 11 at index 0 ΓÇö 1 comparison
+// Average case:  found 66 at index 5 ΓÇö 6 comparisons
+// Worst-found:   found 121 at index 10 ΓÇö 11 comparisons
+// Worst-miss:    not found ΓÇö 11 comparisons
