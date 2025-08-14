@@ -1,3 +1,11 @@
+// In the above linked list, do the following operations:
+//          3.1 insertion at beginning 
+//          3.2 insertion after a particular node
+//          3.3 insertion at end
+
+
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
