@@ -21,21 +21,21 @@ int main()
         new->link = NULL;
         if (start == NULL)
         {
-            start = new; // First node
+            start = new; 
         }
         else
         {
             ptr = start;
             while (ptr->link != NULL)
             {
-                ptr = ptr->link; // Traverse to the end of the list
+                ptr = ptr->link; 
             }
-            ptr->link = new; // Link the new node at the end
+            ptr->link = new; 
         }
     }
     for (ptr = start; ptr != NULL; ptr = ptr->link)
     {
-        printf("%d ", ptr->info); // Print the data in each node
+        printf("%d ", ptr->info); 
     }
     return 0;
 }
