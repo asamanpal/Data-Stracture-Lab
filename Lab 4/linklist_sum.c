@@ -27,7 +27,7 @@ int main()
         new->link = NULL;
         if (start == NULL)
         {
-            start = new; // First node
+            start = new;
         }
         else
         {
@@ -36,15 +36,15 @@ int main()
             {
                 ptr = ptr->link; 
             }
-            ptr->link = new; // Link the new node at the end
+            ptr->link = new;
         }
     }
 
     printf("Linked list contents: ");
     for (ptr = start; ptr != NULL; ptr = ptr->link)
     {
-        printf("%d ", ptr->info); // Print the data in each node
-        sum += ptr->info;         // Add to sum
+    printf("%d ", ptr->info);
+        sum += ptr->info;
     }
 
     if (n > 0)
