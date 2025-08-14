@@ -34,7 +34,7 @@ int main()
             ptr = start;
             while (ptr->link != NULL)
             {
-                ptr = ptr->link; // Traverse to the end of the list
+                ptr = ptr->link; 
             }
             ptr->link = new; // Link the new node at the end
         }
